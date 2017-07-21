@@ -1,0 +1,15 @@
+@keyframes toCircle{
+    from{
+        border-radius:0;
+    }
+    to{
+        border-radius:99px;
+    }
+}
+
+div{
+    height:50px;
+    width:50px;
+    background-color: darkgreen;
+    animation: toCircle 5s linear 0s infinite alternate;
+}
