@@ -1,0 +1,47 @@
+.stars{
+    position: absolute;
+    height: 32px;
+    width: 160px;
+    background: url("stars-sprites2x.png") no-repeat;
+}
+
+.one, .two, .three, .four, .five{
+    opacity: 0;
+    background: url("stars-sprites2x.png") no-repeat;
+    position: absolute;
+    height: 32px;
+}
+
+.one:hover, .two:hover, .three:hover, .four:hover, .five:hover{
+    opacity:1;
+}
+
+.one{
+    z-index: 5;
+    width: 32px;
+    background-position: -128px -320px;
+}
+
+.two{
+    z-index: 4;
+    width: 64px;
+    background-position: -96px -320px;
+}
+
+.three{
+    z-index: 3;
+    width: 96px;
+    background-position: -64px -320px;
+}
+
+.four{
+    z-index: 2;
+    width: 128px;
+    background-position: -32px -320px;
+}
+
+.five{
+    z-index: 1;
+    width: 160px;
+    background-position: 0 -320px;
+}
