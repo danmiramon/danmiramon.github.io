@@ -1,0 +1,31 @@
+ul, li{
+    list-style: none;
+    margin:0 0;
+    padding:0 0;
+}
+
+ul li ul{
+    position:absolute;
+    display:flex;
+    color:white;
+    background-color:darkblue;
+    justify-content: space-between;
+    z-index:-1;
+}
+
+.menu{
+    color:white;
+    background-color:blue;
+}
+
+.hideMenu{
+    top:8px;
+    transition:top 1s ease;
+}
+
+.showMenu{
+    top:25px;
+    transition:top 1s ease;
+}
+
+
