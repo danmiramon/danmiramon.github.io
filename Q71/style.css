@@ -11,5 +11,5 @@ div{
     height:50px;
     width:50px;
     background-color: darkgreen;
-    animation: toCircle 5s linear 0s infinite alternate;
+    animation: toCircle 2s linear 0s infinite alternate;
 }
