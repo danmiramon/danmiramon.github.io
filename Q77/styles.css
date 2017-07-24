@@ -1,0 +1,43 @@
+*{
+    border: 1px solid black;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header{
+    flex: 5;
+}
+
+header h1{
+    text-align: center;
+    background: url("images.png") 40% 50% no-repeat;
+    background-size: contain;
+}
+
+main{
+    flex: 90;
+    display: flex;
+    flex-direction: row;
+}
+
+main nav{
+    flex: 15;
+}
+
+main aside{
+    flex: 85;
+    display: flex;
+    flex-direction: column;
+}
+
+main aside section{
+    flex: 1;
+}
+
+footer{
+    flex: 5;
+}
