@@ -1,0 +1,8 @@
+div{
+    display: inline-block;
+    width: 50%;
+    float: left;
+    border: 5px solid black;
+    padding: 15px;
+    box-sizing: border-box;
+}
